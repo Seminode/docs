@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "Seminode",
   "colors": {
     "primary": "#8b5cf6",
-    "light": "#8b5cf6",
-    "dark": "#8b5cf6"
+    "light": "#a78bfa",
+    "dark": "#7c3aed"
   },
   "favicon": "/favicon.ico",
   "navigation": {
