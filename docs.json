@@ -54,13 +54,29 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://app.seminode.com"
     }
   },
   "footer": {
     "socials": {
-      "linkedin": "https://linkedin.com/company/seminode"
-    }
+      "linkedin": "https://linkedin.com/company/seminode",
+      "website": "https://www.seminode.com/"
+    },
+    "links": [
+      {
+        "header": "Legal",
+        "items": [
+          {
+            "label": "Terms of Service",
+            "href": "https://www.seminode.com/legal/service-terms"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "https://www.seminode.com/legal/privacy-policy"
+          }
+        ]
+      }
+    ]
   },
   "api": {
     "baseUrl": "https://api.seminode.com/v1",
