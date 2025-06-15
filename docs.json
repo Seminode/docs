@@ -45,34 +45,50 @@
     "dark": "/logo/logo-long-white.png"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:info@seminode.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.seminode.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "linkedin": "https://linkedin.com/company/seminode",
-      "website": "https://www.seminode.com/"
+      "label": "Create Company",
+      "href": "https://app.seminode.com/auth/create-company"
     },
     "links": [
+      {
+        "label": "Log in",
+        "href": "https://app.seminode.com/auth/login"
+      }
+    ]
+  },
+"footer": {
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/seminode"
+    },
+    "links": [
+      {
+        "header": "Company",
+        "items": [
+          {
+            "label": "About",
+            "href": "https://www.seminode.com/about-us"
+          },
+          {
+            "label": "Log in",
+            "href": "https://app.seminode.com/auth/login"
+          },
+          {
+            "label": "Create Company",
+            "href": "https://app.seminode.com/auth/create-company"
+          }
+        ]
+      },
       {
         "header": "Legal",
         "items": [
           {
-            "label": "Terms of Service",
-            "href": "https://www.seminode.com/legal/service-terms"
-          },
-          {
             "label": "Privacy Policy",
             "href": "https://www.seminode.com/legal/privacy-policy"
+          },
+          {
+            "label": "Terms of Service",
+            "href": "https://www.seminode.com/legal/service-terms"
           }
         ]
       }
